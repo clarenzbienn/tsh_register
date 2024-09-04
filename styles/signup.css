@@ -1,0 +1,457 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+
+  
+  html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1536px;
+    height: 768px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .n {
+    position: absolute;
+    width: 1536px;
+    height: 3399.195px;
+    top: 550px;
+    scale: 1.5;
+    background: url(styles/upang1.png)
+      no-repeat center;
+    background-size: cover;
+  }
+  .rectangle {
+    position: absolute;
+    width: 1536px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background: rgba(17, 55, 7, 0.66);
+    z-index: 1;
+  }
+  .sign-up-frame {
+    position: absolute;
+    width: 617.434px;
+    height: 635px;
+    top: 48%;
+    left: 780px;
+    font-size: 0px;
+    background: #ffffff;
+    transform: translate(0, -69.76%);
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 26.349px;
+    box-shadow: 0 3.513px 8.783px 0 rgba(0, 0, 0, 0.25);
+  }
+  .sign-up-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 225px;
+    height: 68px;
+    margin: 72.898px 0 0 195.859px;
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 56.08266830444336px;
+    font-weight: 900;
+    line-height: 67.873px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 24;
+  }
+  .welcome-message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 410.159px;
+    height: 16px;
+    margin: 4.898px 0 0 102.76px;
+    color: rgba(17, 55, 7, 0.89);
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 400;
+    line-height: 15.944px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 25;
+  }
+  .input {
+    position: relative;
+    width: 425.09px;
+    height: 255.581px;
+    margin: 27.914px 0 0 96.611px;
+    z-index: 3;
+    top: 0px;
+    overflow: hidden;
+  }
+  .flex-row-ec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 425.09px;
+    height: 50.062px;
+    margin: 4.391px 0 0 0;
+    z-index: 16;
+  }
+  .name {
+    flex-shrink: 0;
+    position: relative;
+    width: 425.09px;
+    height: 50.062px;
+    font-size: 0px;
+    z-index: 16;
+    overflow: hidden;
+  }
+  .full-name {
+    display: block;
+    position: relative;
+    height: 16px;
+    margin: 16.688px 0 0 11.418px;
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 400;
+    line-height: 15.944px;
+    text-align: left;
+    white-space: nowrap;
+    border: none;
+    z-index: 19;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 425.09px;
+    height: 50.062px;
+    top: 0;
+    left: 0;
+    border: 1.757px solid #000000;
+    z-index: 18;
+    border-radius: 21.957px;
+  }
+  .email {
+    position: relative;
+    width: 425.09px;
+    height: 50.062px;
+    margin: 15.809px 0 0 0;
+    font-size: 0px;
+    z-index: 10;
+    overflow: visible auto;
+  }
+  .email-3 {
+    display: block;
+    position: relative;
+    height: 16px;
+    width: 400px;
+    margin: 16.687px 0 0 14.932px;
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 400;
+    line-height: 15.944px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+    border: none;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 425.09px;
+    height: 50.062px;
+    top: 0;
+    left: 0;
+    border: 1.757px solid #000000;
+    z-index: 12;
+    border-radius: 21.957px;
+  }
+  .pass {
+    position: relative;
+    width: 425.09px;
+    height: 50.062px;
+    margin: 15.809px 0 0 0;
+    font-size: 0px;
+    z-index: 7;
+    overflow: visible auto;
+  }
+  .password {
+    display: block;
+    position: relative;
+    height: 16px;
+    margin: 16.687px 0 0 14.932px;
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 400;
+    line-height: 15.944px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+    border: none;
+  }
+  .rectangle-5 {
+    position: absolute;
+    width: 425.09px;
+    height: 50.062px;
+    top: 0;
+    left: 0;
+    border: 1.757px solid #000000;
+    z-index: 9;
+    border-radius: 21.957px;
+  }
+  .con-pass {
+    position: relative;
+    width: 425.09px;
+    height: 50.062px;
+    margin: 15.809px 0 0 0;
+    font-size: 0px;
+    z-index: 4;
+    overflow: visible auto;
+  }
+  .confirm-password {
+    display: block;
+    position: relative;
+    height: 16px;
+    margin: 16.687px 0 0 14.932px;
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 400;
+    line-height: 15.944px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+    border: none;
+  }
+  .rectangle-6 {
+    position: absolute;
+    width: 425.09px;
+    height: 50.062px;
+    top: 0;
+    left: 0;
+    border: 1.757px solid #000000;
+    z-index: 6;
+    border-radius: 21.957px;
+  }
+  .signup-button {
+    position: relative;
+    width: 184.44px;
+    height: 38.559px;
+    margin: 27.227px 0 0 206.396px;
+    cursor: pointer;
+    background: linear-gradient(44.85deg, #223e0b, #59a41e);
+    border: none;
+    z-index: 22;
+    overflow: hidden;
+    border-radius: 26.349px;
+  }
+  .signup-button:hover {
+    scale: 1.03;
+  }
+  .sign-up-7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 125.959px;
+    height: 30.204px;
+    top: calc(50% - 15.42px);
+    left: calc(50% - 62.66px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 25.705900192260742px;
+    font-weight: 400;
+    line-height: 30.204px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 4;
+  }
+
+  .login{
+    position: relative;
+    width: 163.359px;
+    height: 14.931px;
+    margin: 7.112px 0 0 216.938px;
+    z-index: 2;
+  }
+  .have-account {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 115.055px;
+    height: 14.931px;
+    top: 0;
+    left: calc(50% - 81.68px);
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 400;
+    line-height: 14.931px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .log-in {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 50.765px;
+    height: 14.931px;
+    top: 0;
+    left: calc(50% - -30.91px);
+    color: #113707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.174272537231445px;
+    font-weight: 600;
+    line-height: 14.931px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+  }
+  .log-in:hover{
+    font-weight: 650;
+  }
+  .logo {
+    position: relative;
+    width: 601.836px;
+    height: 520px;
+    margin: 127px 0 0 129px;
+    overflow: hidden;
+  }
+  .logo-1 {
+    position: absolute;
+    width: 382.727px;
+    height: 382.727px;
+    top: -13.224px;
+    left: 109.967px;
+    z-index: 1;
+  }
+  .tsh-logo {
+    position: absolute;
+    width: 382.727px;
+    height: 382.727px;
+    top: 55%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .frame {
+    position: absolute;
+    width: 591.983px;
+    height: 170.36px;
+    bottom: 32.525px;
+    left: 50%;
+    transform: translate(-49.97%, 0);
+    z-index: 2;
+  }
+  .the {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 88.681px;
+    height: 60.444px;
+    top: 0;
+    left: 61.455px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 46.65516662597656px;
+    font-weight: 600;
+    line-height: 54.674px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 6;
+    text-shadow: 0 3.112px 3.112px rgba(0, 0, 0, 0.25);
+  }
+  .students-herald {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 589px;
+    height: 96px;
+    top: 22.559px;
+    left: 1.557px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 82.26041412353516px;
+    font-weight: 500;
+    line-height: 96px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+    text-shadow: 0 3.112px 3.112px rgba(0, 0, 0, 0.25);
+  }
+  .truth-above-all {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 451.183px;
+    height: 66.9px;
+    top: 103.461px;
+    left: 83.236px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 38.95729446411133px;
+    font-weight: 400;
+    line-height: 47.147px;
+    text-align: center;
+    white-space: nowrap;
+    background: linear-gradient(90deg, #ffc711, #fff4bc);
+    z-index: 4;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 3.112px 3.112px rgba(0, 0, 0, 0.25);
+  }
+  .official-publication {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 473px;
+    height: 14px;
+    top: 151.691px;
+    left: 72.346px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 12.353070259094238px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.24px;
+    z-index: 3;
+    text-shadow: 0 3.112px 3.112px rgba(0, 0, 0, 0.25);
+  }

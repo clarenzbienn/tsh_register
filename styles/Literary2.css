@@ -1,0 +1,935 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1536px;
+    height: 1416px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .heading {
+    position: relative;
+    width: 1536px;
+    height: 68px;
+    margin: 0 0 0 0;
+    background: #0c2505;
+    z-index: 49;
+    overflow: hidden;
+  }
+  .home {
+    position: absolute;
+    width: 110px;
+    height: 68px;
+    top: 0;
+    left: 171px;
+    z-index: 51;
+  }
+  .home-1 {
+    position: absolute;
+    width: 87px;
+    height: 68px;
+    top: 50%;
+    left: 23px;
+    transform: translate(0, -50%);
+    z-index: 52;
+    overflow: hidden;
+  }
+  .home-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: calc(50% - 8px);
+    left: calc(50% - 21.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.64px;
+    z-index: 53;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .home-2:hover {
+    color: #fbc618;
+  }
+  .ion-home {
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    top: 50%;
+    left: 0;
+    background: url(Literary-images/icon_home.svg)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(0, -50%);
+    z-index: 54;
+    overflow: hidden;
+  }
+  .ion-home:hover{
+    background: url(Literary-images/home-hover.svg)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(0, -50%);
+  }
+  .editorial-board {
+    position: absolute;
+    width: 195px;
+    height: 67px;
+    top: 50%;
+    left: 1007px;
+    transform: translate(0, -50.75%);
+    z-index: 55;
+    overflow: hidden;
+  }
+  .editorial-board-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 121px;
+    height: 13px;
+    top: calc(50% - 6.5px);
+    left: calc(50% - 59.5px);
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.51px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.2px;
+    z-index: 56;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .editorial-board-3:hover {
+    font-weight: bold;
+  }
+  .logo {
+    position: absolute;
+    width: 328px;
+    height: 72px;
+    top: 0px;
+    left: 650px;
+    background: url(Literary-images/logo3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 50;
+  }
+  img {
+    position: absolute;
+    width: 70px;
+    height: 65px;
+    top: 2px;
+    left: 610px;
+    background-size: cover;
+  }
+  .group {
+    position: absolute;
+    width: 127.03px;
+    height: 16.586px;
+    top: 50%;
+    left: 1237px;
+    transform: translate(0, -48.23%);
+    z-index: 57;
+  }
+  .vector {
+    position: absolute;
+    width: 18.04%;
+    height: 100%;
+    top: 0;
+    left: 44.17%;
+    background: url(Literary-images/icon_fb.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 58;
+  }
+  .vector-4 {
+    position: absolute;
+    width: 18.8%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(Literary-images/icon_email.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 59;
+  }
+  .vector-5 {
+    position: absolute;
+    width: 20.04%;
+    height: 145%;
+    top: 0;
+    left: 83.96%;
+    background: url(Literary-images/icon_contact.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 60;
+  }
+  .sections {
+    position: relative;
+    width: 1536px;
+    height: 50px;
+    margin: 9px 0 0 0;
+    z-index: 30;
+    overflow: hidden;
+  }
+  .sections-6 {
+    position: absolute;
+    width: 1536px;
+    height: 50px;
+    top: 0;
+    left: 50%;
+    background: #59aa0a;
+    transform: translate(-50%, 0);
+    z-index: 31;
+    overflow: hidden;
+  }
+  .sections-7 {
+    position: relative;
+    width: 1020px;
+    height: 52px;
+    margin: 0 0 0 258px;
+    z-index: 32;
+  }
+  .news {
+    position: absolute;
+    width: 88px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    z-index: 33;
+    overflow: hidden;
+  }
+  .news-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    top: calc(50% - 8px);
+    left: calc(50% - 20px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 34;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .news-title:hover {
+    font-weight: bold;
+  }
+  .literary-8 {
+    position: absolute;
+    width: 104px;
+    height: 50px;
+    top: 0;
+    left: 337px;
+    background: #ffffff;
+    z-index: 39;
+    overflow: hidden;
+  }
+  .literary-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 69px;
+    height: 15px;
+    top: 17px;
+    left: calc(50% - 35px);
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 40;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .literary-title:hover {
+    font-weight: bold;
+  }
+  .feature {
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 15px;
+    left: 97px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 35;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .feature-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    top: 2px;
+    left: 21px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 36;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .feature-title:hover {
+    font-weight: bold;
+  }
+  .editorial {
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    top: 15px;
+    left: 213px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 37;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .editorial-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 76px;
+    height: 15px;
+    top: 2px;
+    left: 19px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 38;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .editorial-title:hover {
+    font-weight: bold;
+  }
+  .devcom {
+    position: absolute;
+    width: 93px;
+    height: 20px;
+    top: 15px;
+    left: 450px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 41;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .devcom-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 62px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 31.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 42;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .devcom-title:hover {
+    font-weight: bold;
+  }
+  .entertainment {
+    position: absolute;
+    width: 157px;
+    height: 20px;
+    top: 15px;
+    left: 552px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 43;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .entertainment-9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 122px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 61.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 44;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .entertainment-9:hover {
+    font-weight: bold;
+  }
+  .pictures {
+    position: absolute;
+    width: 195px;
+    height: 20px;
+    top: 15px;
+    left: 718px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 45;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .graphics-pictures {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 152px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 76.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 46;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .graphics-pictures:hover {
+    font-weight: bold;
+  }
+  .sports {
+    position: absolute;
+    width: 98px;
+    height: 20px;
+    top: 15px;
+    left: 922px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 47;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .sports-a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 29px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 48;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .sports-a:hover {
+    font-weight: bold;
+  }
+  .expect {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 993px;
+    height: 90px;
+    margin: 7px 0 0 271px;
+    color: #0c2505;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .by-louis {
+    position: relative;
+    width: 303.39px;
+    height: 19px;
+    margin: 0 0 0 617px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.765px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .by {
+    position: relative;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.765px;
+    text-align: center;
+  }
+  .louis {
+    position: relative;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.765px;
+    text-align: center;
+  }
+  .he-expects {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 978px;
+    height: 773px;
+    margin: 19px 0 0 280px;
+    color: #0c2505;
+    font-family: Inter, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-overflow: initial;
+    text-transform: capitalize;
+    z-index: 5;
+    overflow: hidden;
+  }
+  .footer {
+    position: relative;
+    width: 1536px;
+    height: 353px;
+    margin: 29px 0 0 1px;
+    background: #0c2505;
+    z-index: 6;
+    overflow: hidden;
+  }
+  .logo-b {
+    position: absolute;
+    width: 940px;
+    height: 333px;
+    top: 15px;
+    left: 89px;
+    z-index: 7;
+  }
+  .logo-c {
+    position: absolute;
+    width: 403px;
+    height: 333px;
+    top: 0;
+    left: 0;
+    background: url(Literary-images/logo1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 10;
+  }
+  .logo-d {
+    position: absolute;
+    width: 707px;
+    height: 121px;
+    top: 100px;
+    left: 233px;
+    background: url(Literary-images/logo2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 8;
+  }
+  .official-publication {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 421px;
+    height: 13px;
+    top: 195px;
+    left: 364px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.51px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.4px;
+    z-index: 9;
+  }
+  .icons {
+    position: absolute;
+    width: 174.812px;
+    height: 21px;
+    top: 225px;
+    left: 478.305px;
+    z-index: 11;
+  }
+  .vector-e {
+    position: absolute;
+    width: 13.12%;
+    height: 100%;
+    top: 0;
+    left: 28.75%;
+    background: url(Literary-images/icon_fb.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 14;
+  }
+  .vector-f {
+    position: absolute;
+    width: 18.87%;
+    height: 130.48%;
+    top: 4.76%;
+    left: 0%;
+    background: url(Literary-images/icon_contact.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 15;
+  }
+  .vector-10 {
+    position: absolute;
+    width: 11.25%;
+    height: 85.71%;
+    top: 14.29%;
+    left: 88.75%;
+    background: url(Literary-images/icon_issuu.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .vector-11 {
+    position: absolute;
+    width: 13.12%;
+    height: 80.95%;
+    top: 14.29%;
+    left: 58.75%;
+    background: url(Literary-images/icon_email.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 13;
+  }
+  .text {
+    position: absolute;
+    width: 383px;
+    height: 330px;
+    top: 18px;
+    left: 1011px;
+    z-index: 16;
+    overflow: hidden;
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 317px;
+    height: 19px;
+    margin: 30px 0 0 18px;
+    z-index: 18;
+  }
+  .company {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 90px;
+    height: 19px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.765px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.1px;
+    z-index: 18;
+  }
+  .categories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 115px;
+    height: 19px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.765px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.1px;
+    z-index: 17;
+  }
+  .flex-row-da {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 238px;
+    height: 14px;
+    margin: 12px 0 0 34px;
+    z-index: 22;
+  }
+  .home-12 {
+    flex-shrink: 0;
+    position: relative;
+    height: 14px;
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 19;
+  }
+  .home-12:hover {
+    font-weight: bold;
+  }
+  .news-13 {
+    flex-shrink: 0;
+    position: relative;
+    height: 14px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 22;
+  }
+  .news-13:hover {
+    font-weight: bold;
+  }
+  .feature-14 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 23;
+  }
+  .feature-14:hover {
+    font-weight: bold;
+  }
+  .contact-us {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: -6px 0 0 34px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 20;
+  }
+  .contact-us:hover {
+    font-weight: bold;
+  }
+  .editorial-15 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 4px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 24;
+  }
+  .editorial-15:hover {
+    font-weight: bold;
+  }
+  .editorial-board-16 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 2px 0 0 34px;
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 21;
+  }
+  .editorial-board-16:hover {
+    font-weight: bold;
+  }
+  .literary-17 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: -4px 0 0 235px;
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 25;
+  }
+  .literary-17:hover {
+    font-weight: bold;
+  }
+  .devcom-18 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 26;
+  }
+  .devcom-18:hover {
+    font-weight: bold;
+  }
+  .entertainment-19 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 27;
+  }
+  .entertainment-19:hover {
+    font-weight: bold;
+  }
+  .graphics {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 28;
+  }
+  .graphics:hover {
+    font-weight: bold;
+  }
+  .sports-1a {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 29;
+  }
+  .sports-1a:hover {
+    font-weight: bold;
+  }
+  

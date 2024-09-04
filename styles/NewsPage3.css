@@ -1,0 +1,1072 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1536px;
+    height: 3281px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .heading {
+    position: relative;
+    width: 1536px;
+    height: 68px;
+    margin: 0 0 0 0;
+    background: #0c2505;
+    z-index: 41;
+    overflow: hidden;
+  }
+  .home {
+    position: absolute;
+    width: 110px;
+    height: 68px;
+    top: 0;
+    left: 171px;
+    z-index: 43;
+  }
+  .home-1 {
+    position: absolute;
+    width: 87px;
+    height: 68px;
+    top: 50%;
+    left: 23px;
+    transform: translate(0, -50%);
+    z-index: 44;
+    overflow: hidden;
+  }
+  .home-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: calc(50% - 8px);
+    left: calc(50% - 21.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.64px;
+    z-index: 45;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .home-2:hover{
+    color: #fbc618;
+  }
+  .ion-home {
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    top: 50%;
+    left: 0;
+    background: url(NewsPage3-images/ion_home.svg)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(0, -50%);
+    z-index: 63;
+    overflow: hidden;
+  }
+  .ion-home:hover{
+    background: url(NewsPage3-images/home-hover.svg)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(0, -50%);
+  }
+  .editorial-board {
+    position: absolute;
+    width: 195px;
+    height: 67px;
+    top: 50%;
+    left: 1007px;
+    transform: translate(0, -50.75%);
+    z-index: 47;
+    overflow: hidden;
+  }
+  .editorial-board-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 121px;
+    height: 13px;
+    top: calc(50% - 6.5px);
+    left: calc(50% - 59.5px);
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.51px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.2px;
+    z-index: 48;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .editorial-board-3:hover{
+    color: #fbc618;
+    font-weight: bold;
+  }
+  
+  .logo {
+    position: absolute;
+    width: 328px;
+    height: 72px;
+    top: -2px;
+    left: 604px;
+    background: url(NewsPage3-images/logo2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 59;
+  }
+  img {
+    position: relative;
+    width: 80px;
+    height: 65px;
+    top: 2px;
+    left: 550px;
+    background-size: cover;
+  }
+  .group {
+    position: absolute;
+    width: 127.03px;
+    height: 16.586px;
+    top: 50%;
+    left: 1237px;
+    transform: translate(0, -48.23%);
+    z-index: 49;
+  }
+  .vector {
+    position: absolute;
+    width: 15.04%;
+    height: 100%;
+    top: 0;
+    left: 44.17%;
+    background: url(NewsPage3-images/fb.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 32;
+  }
+  .vector-4 {
+    position: absolute;
+    width: 18.8%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(NewsPage3-images/phone.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 33;
+  }
+  .vector-5 {
+    position: absolute;
+    width: 15.04%;
+    height: 100%;
+    top: 0;
+    left: 84.96%;
+    background: url(NewsPage3-images/gmail.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 34;
+  }
+  .sections {
+    position: relative;
+    width: 1536px;
+    height: 50px;
+    margin: 9px 0 0 0;
+    z-index: 53;
+    overflow: hidden;
+  }
+  .sections-6 {
+    position: absolute;
+    width: 1536px;
+    height: 50px;
+    top: 0;
+    left: 50%;
+    background: #59aa0a;
+    transform: translate(-50%, 0);
+    z-index: 54;
+    overflow: hidden;
+  }
+  .sections-7 {
+    position: relative;
+    width: 1020px;
+    height: 52px;
+    margin: 0 0 0 258px;
+    z-index: 55;
+  }
+  .news {
+    position: absolute;
+    width: 88px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 56;
+    overflow: hidden;
+  }
+  .news-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    top: calc(50% - 8px);
+    left: calc(50% - 20px);
+    color: #0c2505;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 57;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .feature {
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 15px;
+    left: 97px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 58;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .feature-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    top: 2px;
+    left: 21px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 59;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .feature-title:hover{
+    font-weight: bold;
+  }
+  .editorial {
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    top: 15px;
+    left: 213px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 60;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .editorial-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 76px;
+    height: 15px;
+    top: 2px;
+    left: 19px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 61;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .editorial-title:hover{
+    font-weight: bold;
+  }
+  .literary {
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    top: 15px;
+    left: 337px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 62;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .literary-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 69px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 35px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 63;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .literary-title:hover{
+    font-weight: bold;
+  }
+  .devcom {
+    position: absolute;
+    width: 93px;
+    height: 20px;
+    top: 15px;
+    left: 450px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 64;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .devcom-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 62px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 31.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 65;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .devcom-title:hover{
+    font-weight: bold;
+  }
+  .entertainment {
+    position: absolute;
+    width: 157px;
+    height: 20px;
+    top: 15px;
+    left: 552px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 66;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .entertainment-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 122px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 61.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 67;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .entertainment-title:hover{
+    font-weight: bold;
+  }
+  .pictures {
+    position: absolute;
+    width: 195px;
+    height: 20px;
+    top: 15px;
+    left: 718px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 68;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .graphics-pictures {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 152px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 76.5px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 69;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .graphics-pictures:hover{
+    font-weight: bold;
+  }
+  .sports {
+    position: absolute;
+    width: 98px;
+    height: 20px;
+    top: 15px;
+    left: 922px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 70;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .sports-8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    top: 2px;
+    left: calc(50% - 29px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.68px;
+    z-index: 71;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .sports-8:hover{
+    font-weight: bold;
+  }
+  .phinma-university-pangasinan-leads {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 993px;
+    height: 377px;
+    margin: 9px 0 0 270px;
+    color: #000000;
+    font-family: Times New Roman, var(--default-font-family);
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 73.8px;
+    text-align: left;
+    z-index: 13;
+  }
+  .by-quency-gylle-cabral {
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 0 0 0 271px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.765px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .august {
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 2px 0 0 270px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.765px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+  }
+  .picture {
+    position: relative;
+    width: 995px;
+    height: 648px;
+    margin: 11px 0 0 271px;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .frame {
+    position: relative;
+    width: 995px;
+    height: 43px;
+    margin: 588px 0 0 0;
+    background: #ffffff;
+    z-index: 4;
+    overflow: visible auto;
+  }
+  .service-as-commitment {
+    position: relative;
+    width: 978px;
+    height: 25px;
+    margin: 9px 0 0 17px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .service-as-commitment-9 {
+    position: relative;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.02px;
+    text-align: left;
+  }
+  .phinma-upang-leads-brigada-eskwela {
+    position: relative;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: left;
+  }
+  .img {
+    position: absolute;
+    width: 1314px;
+    height: 676px;
+    top: -14px;
+    left: -159px;
+    background: url(NewsPage3-images/IMG_1666.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+  }
+  .resounding-testament {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 978.285px;
+    height: 278px;
+    margin: 10px 0 0 270px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.036px;
+    text-align: left;
+    z-index: 14;
+  }
+  .iecep-quiz-show-math-olympiad {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 978.285px;
+    height: 125px;
+    margin: 1310px 0 0 270px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: left;
+    z-index: 16;
+  }
+  .footer {
+    position: relative;
+    width: 1536px;
+    height: 353px;
+    margin: -7px 0 0 0;
+    background: #0c2505;
+    z-index: 17;
+    overflow: hidden;
+  }
+  .logo-a {
+    position: absolute;
+    width: 940px;
+    height: 333px;
+    top: 15px;
+    left: 89px;
+    z-index: 18;
+  }
+  .logo-b {
+    position: absolute;
+    width: 403px;
+    height: 333px;
+    top: 0;
+    left: 0;
+    background: url(NewsPage3-images/logo.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 21;
+  }
+  .logo-c {
+    position: absolute;
+    width: 707px;
+    height: 121px;
+    top: 100px;
+    left: 233px;
+    background: url(NewsPage3-images/logo3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 19;
+  }
+  .official-publication {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 421px;
+    height: 13px;
+    top: 195px;
+    left: 364px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.51px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.4px;
+    z-index: 20;
+  }
+  .icons {
+    position: absolute;
+    width: 174.812px;
+    height: 21px;
+    top: 225px;
+    left: 478.304px;
+    z-index: 22;
+  }
+  .vector-d {
+    position: absolute;
+    width: 13.12%;
+    height: 100%;
+    top: 0;
+    left: 28.75%;
+    background: url(NewsPage3-images/fb.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 43;
+  }
+  .vector-e {
+    position: absolute;
+    width: 11.88%;
+    height: 90.48%;
+    top: 4.76%;
+    left: 0;
+    background: url(NewsPage3-images/phone.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 44;
+  }
+  .vector-f {
+    position: absolute;
+    width: 11.25%;
+    height: 85.71%;
+    top: 14.29%;
+    left: 88.75%;
+    background: url(NewsPage3-images/issuu.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 41;
+  }
+  .vector-10 {
+    position: absolute;
+    width: 13.12%;
+    height: 80.95%;
+    top: 14.29%;
+    left: 58.75%;
+    background: url(NewsPage3-images/gmail.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 42;
+  }
+  .text {
+    position: absolute;
+    width: 383px;
+    height: 330px;
+    top: 18px;
+    left: 1011px;
+    z-index: 27;
+    overflow: hidden;
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 317px;
+    height: 19px;
+    margin: 30px 0 0 18px;
+    z-index: 29;
+  }
+  .company {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 90px;
+    height: 19px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.765px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.1px;
+    z-index: 29;
+  }
+  .categories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 115px;
+    height: 19px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.765px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2.1px;
+    z-index: 28;
+  }
+  .flex-row-fb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 238px;
+    height: 14px;
+    margin: 12px 0 0 34px;
+    z-index: 33;
+  }
+  .home-11 {
+    flex-shrink: 0;
+    position: relative;
+    height: 14px;
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 28;
+  }
+  .home-11:hover{
+    font-weight: bold;
+  }
+  .news-12 {
+    flex-shrink: 0;
+    position: relative;
+    height: 14px;
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 31;
+  }
+  .news-12:hover{
+    font-weight: bold;
+  }
+  .feature-13 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 34;
+  }
+  .feature-13:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .contact-us {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: -6px 0 0 34px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 31;
+  }
+  .contact-us:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .editorial-14 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 4px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 35;
+  }
+  .editorial-14:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .editorial-board-15 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 2px 0 0 34px;
+    color: #fbc618;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 32;
+  }
+  .literary-16 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: -4px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 36;
+  }
+  .literary-16:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .devcom-17 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 37;
+  }
+  .devcom-17:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .entertainment-18 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 38;
+  }
+  .entertainment-18:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .graphics {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 39;
+  }
+  .graphics:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .sports-19 {
+    display: block;
+    position: relative;
+    height: 14px;
+    margin: 12px 0 0 235px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.761px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.54px;
+    z-index: 40;
+  }
+  .sports-19:hover{
+    color: #fbc618;
+    font-weight: bold;  
+  }
+  .math-olympiad-champions {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 978.285px;
+    height: 557px;
+    top: 1604px;
+    left: 270px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: left;
+    z-index: 15;
+  }
+  .picture-1a {
+    position: absolute;
+    width: 996px;
+    height: 663px;
+    top: 2125px;
+    left: 270px;
+    z-index: 6;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .frame-1b {
+    position: relative;
+    width: 995px;
+    height: 41px;
+    margin: 605px 0 0 0;
+    background: #ffffff;
+    z-index: 8;
+  }
+  .photo-by-tomas-galayugo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 20px;
+    top: 11px;
+    left: 16px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .untitled {
+    position: absolute;
+    width: 1138px;
+    height: 687px;
+    top: 0;
+    left: 0;
+    background: url(NewsPage3-images/Untitled267_20240118184607.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
+  
